@@ -2,4 +2,18 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+/* common css */
+#login_area{
+padding: 100px 0px;
+}
+.submit_area{
+    width: 75%;
+    margin: 50px auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #686767;}
+/* .submit_area form{
+   border-radius: 10px;
+} */
