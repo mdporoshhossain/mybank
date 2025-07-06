@@ -24,12 +24,56 @@
 
    </div>
 
+   <!-- Transaction are -->
+    <div id="transacrion_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-4">
+                    <div class="deposit stutas">
+                        <h5>deposit</h5>
+                        <h2>$000</h2>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4">
+                    <div class="withdrow stutas">
+                        <h5>withdrow</h5>
+                        <h2>$000</h2>
+                    </div>
+                </div>
+                <div class="col-md-4 col-4">
+                    <div class="Blance stutas">
+                        <h5>Blance</h5>
+                        <h2>$000</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-6">
+                    <div class="deposit_item">
+                        <h4>Deposit</h4>
+                        <input type="number" placeholder="$Amount deposit" class="form-control">
+                        <button class="btn btn-success">Deposit</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-6">
+                    <div class="deposit_item">
+                        <h4>withdrow</h4>
+                        <input type="number" placeholder="$Amount withdrow" class="form-control">
+                        <button class="btn btn-success">withdrow</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script>
         const jsLoginBtn = document.getElementById("loginBtn");
             jsLoginBtn.addEventListener('click' , function(e){
                 const loginAriaJs = document.getElementById("login_area");
                 loginAriaJs.style.display = 'none';
+                const transacrionArea = document.getElementById("transacrion_area");
+                transacrionArea.style.display = 'block';
             });
     </script>
 

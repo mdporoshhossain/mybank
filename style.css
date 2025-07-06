@@ -5,15 +5,57 @@ body{
 
 }
 /* common css */
+#transacrion_area ,
 #login_area{
-padding: 100px 0px;
+padding-top: 100px;
+
+
 }
 .submit_area{
     width: 75%;
     margin: 50px auto;
     padding: 10px 15px;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px 0px #686767;}
-/* .submit_area form{
-   border-radius: 10px;
-} */
+    box-shadow: 5px 5px 10px 0px #686767;
+}
+
+
+/* transacrion_area */
+
+#transacrion_area{
+    display: none;
+
+}
+
+.stutas{
+    padding: 5px 5px ;
+    margin: 0 5px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 0;
+}
+.deposit{
+background-color: blanchedalmond;
+}
+.withdrow{
+background-color: lightsalmon;
+}
+.Blance{
+background-color: orange;
+}
+
+.deposit_item{
+    margin: 50px auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #686767;
+}
+.deposit_item h4{
+    font-size: 18px;
+}
+.deposit_item input{
+    margin: 10px 0px;
+}
+.deposit_item button{
+   font-size: 14px;
+}
