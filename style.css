@@ -59,3 +59,79 @@ background-color: orange;
 .deposit_item button{
    font-size: 14px;
 }
+
+
+
+
+/* cart_item */
+.cart_items_area{
+    margin: 0 auto;
+    background-color: #F7F5FB;
+    border-radius: 5px;
+    padding: 5px 5px;
+
+
+}
+.cart_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+
+.cart_item img{
+    width: 150px;
+    height: 150px;
+    padding: 10px 10px;
+
+}
+.cart_item  h2{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 10px;
+    
+}
+.cart_item .numbarItem {
+    background-color: #F7F5FB;
+    padding: 5px 5px;
+    border-radius: 5px;
+    width: 75px;
+    border: none;
+}
+.cart_item button {
+    background-color: #F7F5FB;
+    border-radius: 5px;
+    border: none;
+}
+
+.cart_item i{
+    cursor: pointer;
+    padding: 10px 10px;
+
+    
+}
+.cart_item i:hover{
+color: tomato;
+
+    
+}
+
+.cart_item .cart_table{
+    margin: 0px auto;
+
+    
+}
+.amountTitale{
+    font-size: 16px;
+    font-weight: 700;
+}
+.amountItem{
+    text-align: right;
+}
+
+/* checkout_btn */
