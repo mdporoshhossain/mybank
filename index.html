@@ -67,53 +67,6 @@
     </div>
 
 
-    <script>
-        const jsLoginBtn = document.getElementById("loginBtn");
-            jsLoginBtn.addEventListener('click' , function(e){
-                const loginAriaJs = document.getElementById("login_area");
-                loginAriaJs.style.display = 'none';
-                const transacrionArea = document.getElementById("transacrion_area");
-                transacrionArea.style.display = 'block';
-            });
-// depositBtn 
-            const jsDeposit =document.getElementById("depositBtn");
-            jsDeposit.addEventListener('click' , function(e){
-
-            //    const jsDepositAmount =document.getElementById("depositAmount").value;
-            //    const depositNumbar = parseFloat(jsDepositAmount);
-            //    document.getElementById("depositAmount").value ="";
-                const depositNumbar = getamount('depositAmount');
-
-
-                updateText('currentDeposit' , depositNumbar );
-                updateText('blancecurrent' , depositNumbar );
-
-            });
-
-            const withdrowBtnjs = document.getElementById("withdrowBtn");
-            withdrowBtnjs.addEventListener('click' , function(e){
-
-                const withdrowNumbar = getamount('withdrowAmount');
-                
-                updateText('currentwithdrow' , withdrowNumbar);
-                updateText('blancecurrent' , -1 * withdrowNumbar);
-
-
-            });
-
-            function getamount(id) {
-               const Amount =document.getElementById(id).value;
-               const AmountNumbar = parseFloat(Amount);
-               document.getElementById(id).value ="";
-               return AmountNumbar;
-            }
-            function updateText(id , depositNumbar) {
-                const blancecurrentjs = document.getElementById(id).innerText;
-                const currentNumbar = parseFloat(blancecurrentjs);
-                const blanceTotal = depositNumbar + currentNumbar;
-                document.getElementById(id).innerText = blanceTotal;
-            }
-    </script>
 
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script> -->
 </body>
